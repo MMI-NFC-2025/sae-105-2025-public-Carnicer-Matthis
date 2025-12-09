@@ -3,9 +3,9 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : CARNICER
+- PRÉNOM : MATTHIS
+- GROUPE : C1
 - URL du site :
 - URL FIGMA :
 
