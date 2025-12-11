@@ -1,0 +1,98 @@
+/* Artiste Detail Page Styles */
+
+.artiste-detail-hero {
+    padding: 2rem 2rem 0 2rem;
+    background-color: var(--tonique-light);
+    text-align: center;
+}
+
+.artiste-detail-title {
+    font-size: var(--text-5xl);
+    font-weight: 800;
+    color: var(--marron);
+    margin: 0 0 2rem 0;
+}
+
+.artiste-detail-hero-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Bio Section */
+.artiste-bio {
+    padding: 3rem 2rem;
+    background-color: var(--tonique-light);
+    text-align: left;
+}
+
+.bio-text {
+    font-size: var(--text-base);
+    line-height: 1.6;
+    color: var(--marron);
+    margin-bottom: 1.5rem;
+}
+
+.bio-text:last-child {
+    margin-bottom: 0;
+}
+
+/* Navigation Buttons */
+.artiste-navigation {
+    padding: 2rem;
+    background-color: var(--tonique-light);
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.carousel-button {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--gray-600);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+
+.carousel-button:hover {
+    background-color: var(--gray-700);
+}
+
+.carousel-button img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Carousel */
+.artiste-carousel {
+    padding: 0 2rem 3rem 2rem;
+    background-color: var(--tonique-light);
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-image {
+    min-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}

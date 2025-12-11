@@ -1,0 +1,84 @@
+/* Contact Page Styles */
+
+.contact-hero {
+    padding: 3rem 2rem;
+    background-color: var(--tonique-light);
+    text-align: left;
+}
+
+.contact-title {
+    font-size: var(--text-6xl);
+    font-weight: 800;
+    color: var(--marron);
+    margin: 0;
+}
+
+/* Formulaire */
+.contact-form-section {
+    padding: 3rem 2rem;
+    background-color: var(--tonique-light);
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    font-size: var(--text-lg);
+    font-weight: 600;
+    color: var(--marron);
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: var(--text-base);
+    font-family: var(--font-sans);
+    color: var(--tonique-light);
+    background-color: var(--marron);
+    border: none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: var(--tonique-light);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+.submit-button {
+    background-color: var(--marron);
+    color: var(--tonique-light);
+    font-size: var(--text-base);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: opacity 0.3s ease;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+}
+
+.submit-button svg {
+    width: 20px;
+    height: 20px;
+}

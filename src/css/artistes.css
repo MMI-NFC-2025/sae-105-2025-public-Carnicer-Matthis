@@ -1,0 +1,71 @@
+/* Artistes Page Styles */
+
+.artistes-hero {
+    padding: 3rem 2rem;
+    background-color: var(--tonique-light);
+    text-align: left;
+}
+
+.artistes-title {
+    font-size: var(--text-6xl);
+    font-weight: 800;
+    color: var(--marron);
+    margin: 0;
+}
+
+/* Grid Artistes */
+.artistes-grid {
+    padding: 2rem 1.5rem;
+    background-color: var(--tonique-light);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+/* Artiste Card */
+.artiste-card {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    background-color: var(--marron);
+    display: block;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.artiste-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.artiste-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.artiste-info {
+    padding: 1rem;
+    text-align: left;
+}
+
+.artiste-name {
+    font-size: var(--text-base);
+    font-weight: 700;
+    color: var(--blanc);
+    margin: 0 0 0.5rem 0;
+}
+
+.artiste-date {
+    font-size: var(--text-sm);
+    font-weight: 400;
+    color: var(--blanc);
+    margin: 0 0 0.25rem 0;
+}
+
+.artiste-scene {
+    font-size: var(--text-sm);
+    font-weight: 400;
+    color: var(--tonique-light);
+    margin: 0;
+}

@@ -1,0 +1,166 @@
+/* Styles spécifiques à la page À propos */
+
+/* Hero Section */
+.apropos-hero {
+    padding: 3rem 2rem;
+    background-color: var(--tonique-light);
+    text-align: left;
+}
+
+.apropos-title {
+    font-size: var(--text-6xl);
+    font-weight: bold;
+    color: var(--marron);
+    line-height: 1.2;
+    margin: 0;
+}
+
+/* Introduction */
+.apropos-intro {
+    padding: 2rem;
+    background-color: var(--tonique-light);
+    text-align: left;
+}
+
+.apropos-text {
+    font-size: var(--text-base);
+    color: var(--marron);
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Alignement : forcer le texte à gauche */
+.apropos-text,
+.apropos-content,
+.apropos-list,
+.apropos-section {
+    text-align: left;
+}
+
+.apropos-text:last-child {
+    margin-bottom: 0;
+}
+
+/* Sections */
+.apropos-section {
+    padding: 3rem 2rem;
+    background-color: var(--tonique-light);
+    text-align: left;
+}
+
+.apropos-section.apropos-beige {
+    background-color: var(--tonique-light);
+}
+
+.apropos-section-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.apropos-section-title {
+    font-size: var(--text-4xl);
+    font-weight: bold;
+    color: var(--marron);
+    line-height: 1.2;
+    margin: 0;
+}
+
+.apropos-icon {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.apropos-content {
+    color: var(--marron);
+    text-align: left;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Liste */
+.apropos-list {
+    list-style: none;
+    padding: 0;
+    margin: 1.5rem 0;
+}
+
+.apropos-list li {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    font-size: var(--text-base);
+    line-height: 1.6;
+}
+
+.apropos-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--marron);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* CTA Button */
+.apropos-cta {
+    background-color: var(--marron);
+    color: var(--tonique-light);
+    border: none;
+    padding: 0.875rem 1.75rem;
+    font-size: var(--text-base);
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.apropos-cta:hover {
+    background-color: #3d352d;
+}
+
+/* Responsive */
+@media (min-width: 768px) {
+    .apropos-hero {
+        padding: 4rem;
+    }
+
+    .apropos-title {
+        font-size: var(--text-7xl);
+    }
+
+    .apropos-intro,
+    .apropos-section {
+        padding: 3rem 4rem;
+    }
+
+    .apropos-section-title {
+        font-size: var(--text-5xl);
+    }
+
+    .apropos-icon {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .apropos-hero {
+        padding: 6rem 4rem;
+    }
+
+    .apropos-intro,
+    .apropos-section {
+        padding: 4rem 6rem;
+    }
+
+    .apropos-content {
+        max-width: 800px;
+    }
+}

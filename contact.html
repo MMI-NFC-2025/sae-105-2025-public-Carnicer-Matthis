@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Flying Tap Fest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/contact.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <span class="logo-text">FLYING TAP FEST</span>
+            </div>
+            <button class="menu-toggle" aria-label="Menu">
+                <img src="assets/icons/menu.avif" alt="Menu" class="menu-icon">
+            </button>
+        </div>
+    </header>
+
+    <!-- Menu Mobile -->
+    <nav class="mobile-menu">
+        <div class="mobile-menu-header">
+            <span class="mobile-menu-title">FLYING TAP FEST</span>
+            <button class="menu-close" aria-label="Fermer le menu">
+                <img src="assets/icons/close.avif" alt="Fermer">
+            </button>
+        </div>
+        <ul class="mobile-menu-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="apropos.html">À propos</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="artistes.html">Artistes</a></li>
+            <li><a href="scenes.html">Scènes</a></li>
+            <li><a href="infos-pratiques.html">Infos pratiques</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="mobile-menu-social">
+            <a href="#instagram">Instagram</a>
+            <a href="#tiktok">Tiktok</a>
+            <a href="#facebook">Facebook</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <h1 class="contact-title">Contact</h1>
+    </section>
+
+    <!-- Formulaire -->
+    <section class="contact-form-section">
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Text" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Text" required>
+            </div>
+
+            <div class="form-group">
+                <label for="sujet">Sujet :</label>
+                <input type="text" id="sujet" name="sujet" placeholder="Text" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="6" placeholder="Text" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">
+                <span>Envoyer</span>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-image">
+            <img src="assets/img/footer.avif" alt="Flying Tap Fest">
+        </div>
+        <div class="footer-content">
+            <p class="footer-tagline">Un festival entre ciel et terre.</p>
+
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <a href="apropos.html">À propos</a>
+                <a href="programme.html">Programme</a>
+                <a href="artistes.html">Artistes</a>
+                <a href="scenes.html">Scènes</a>
+                <a href="infos-pratiques.html">Infos pratiques</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="footer-social">
+                <span>Instagram</span>
+                <span>Tiktok</span>
+                <span>Facebook</span>
+            </div>
+
+            <div class="footer-contact">
+                <p>03 12 34 56 78</p>
+                <p class="footer-email">Flyingtap@fest.com</p>
+                <address>
+                    France, Montbéliard,<br>
+                    Parc Du Prés La Rose<br>
+                    Chemin de Halage, 25200
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+</body>
+
+</html>
