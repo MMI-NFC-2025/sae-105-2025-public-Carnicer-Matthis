@@ -1,30 +1,28 @@
 // Script de base pour le site Flying Tap Fest
 document.addEventListener('DOMContentLoaded', function () {
-    // Gestion du menu mobile
-    const menuToggle = document.querySelector('.menu-toggle');
-    const menuClose = document.querySelector('.menu-close');
-    const mobileMenu = document.querySelector('.mobile-menu');
+    const menuToggle = document.querySelector('.header__menu-toggle');
+    const menuClose = document.querySelector('.menu__close');
+    const mobileMenu = document.querySelector('.menu');
     const body = document.body;
 
     if (menuToggle && mobileMenu) {
         menuToggle.addEventListener('click', function () {
-            mobileMenu.classList.add('active');
-            body.style.overflow = 'hidden'; // Empêche le scroll du body
+            mobileMenu.classList.add('menu--active');
+            body.style.overflow = 'hidden';
         });
     }
 
     if (menuClose && mobileMenu) {
         menuClose.addEventListener('click', function () {
-            mobileMenu.classList.remove('active');
-            body.style.overflow = ''; // Réactive le scroll
+            mobileMenu.classList.remove('menu--active');
+            body.style.overflow = '';
         });
     }
 
-    // Fermer le menu en cliquant sur un lien
-    const menuLinks = document.querySelectorAll('.mobile-menu-nav a');
+    const menuLinks = document.querySelectorAll('.menu__nav-link');
     menuLinks.forEach(link => {
         link.addEventListener('click', function () {
-            mobileMenu.classList.remove('active');
+            mobileMenu.classList.remove('menu--active');
             body.style.overflow = '';
         });
     });

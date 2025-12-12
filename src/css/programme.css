@@ -1,5 +1,3 @@
-/* Programme Page Styles */
-
 .programme-hero {
     position: relative;
     width: 100%;
@@ -38,7 +36,6 @@
     color: var(--tonique-light);
 }
 
-/* Introduction Section */
 .programme-intro {
     padding: 3rem 1.5rem;
     text-align: center;
@@ -71,7 +68,6 @@
     opacity: 0.8;
 }
 
-/* Day Section */
 .programme-day {
     padding: 3rem 1.5rem;
     background-color: var(--tonique-light);
@@ -89,7 +85,6 @@
     text-align: left;
 }
 
-/* Event Card */
 .event-card {
     position: relative;
     margin-bottom: 2rem;

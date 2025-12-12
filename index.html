@@ -5,178 +5,167 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flying Tap Fest - Festival de claquettes 6-7 juin 2026</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 
 <body>
-    <!-- Header -->
     <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <span class="logo-text">FLYING TAP FEST</span>
+        <div class="header__container">
+            <div class="header__logo">
+                <span class="header__logo-text">FLYING TAP FEST</span>
             </div>
-            <button class="menu-toggle" aria-label="Menu">
-                <img src="assets/icons/menu.avif" alt="Menu" class="menu-icon">
+            <button class="header__menu-toggle" aria-label="Menu">
+                <img src="assets/icons/menu.avif" alt="Menu" class="header__menu-icon">
             </button>
         </div>
     </header>
 
-    <!-- Menu Mobile -->
-    <nav class="mobile-menu">
-        <div class="mobile-menu-header">
-            <span class="mobile-menu-title">FLYING TAP FEST</span>
-            <button class="menu-close" aria-label="Fermer le menu">
-                <img src="assets/icons/close.avif" alt="Fermer">
+    <nav class="menu">
+        <div class="menu__header">
+            <span class="menu__title">FLYING TAP FEST</span>
+            <button class="menu__close" aria-label="Fermer le menu">
+                <img src="assets/icons/close.avif" alt="Fermer" class="menu__close-icon">
             </button>
         </div>
-        <ul class="mobile-menu-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="apropos.html">À propos</a></li>
-            <li><a href="programme.html">Programme</a></li>
-            <li><a href="artistes.html">Artistes</a></li>
-            <li><a href="scenes.html">Scènes</a></li>
-            <li><a href="infos-pratiques.html">Infos pratiques</a></li>
-            <li><a href="contact.html">Contact</a></li>
+        <ul class="menu__nav">
+            <li class="menu__nav-item"><a href="index.html" class="menu__nav-link">Home</a></li>
+            <li class="menu__nav-item"><a href="apropos.html" class="menu__nav-link">À propos</a></li>
+            <li class="menu__nav-item"><a href="programme.html" class="menu__nav-link">Programme</a></li>
+            <li class="menu__nav-item"><a href="artistes.html" class="menu__nav-link">Artistes</a></li>
+            <li class="menu__nav-item"><a href="scenes.html" class="menu__nav-link">Scènes</a></li>
+            <li class="menu__nav-item"><a href="infos-pratiques.html" class="menu__nav-link">Infos pratiques</a></li>
+            <li class="menu__nav-item"><a href="contact.html" class="menu__nav-link">Contact</a></li>
         </ul>
-        <div class="mobile-menu-social">
-            <a href="#instagram">Instagram</a>
-            <a href="#tiktok">Tiktok</a>
-            <a href="#facebook">Facebook</a>
+        <div class="menu__social">
+            <a href="https://www.instagram.com" class="menu__social-link">Instagram</a>
+            <a href="https://www.tiktok.com" class="menu__social-link">Tiktok</a>
+            <a href="https://www.facebook.com" class="menu__social-link">Facebook</a>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section class="hero">
-        <img src="assets/img/hero.avif" alt="Festival Flying Tap Fest" class="hero-image">
-        <div class="hero-content">
-            <h1 class="hero-title">
+        <img src="assets/img/hero.avif" alt="Festival Flying Tap Fest" class="hero__image">
+        <div class="hero__content">
+            <h1 class="hero__title">
                 Un festival<br>
                 entre ciel et<br>
                 terre.
             </h1>
-            <p class="hero-date">6-7 JUIN 2026</p>
-            <p class="hero-description">
+            <p class="hero__date">6-7 JUIN 2026</p>
+            <p class="hero__description">
                 Festival de claquettes moderne, animée avec des<br>
                 dances et danses.
             </p>
-            <ul class="hero-list">
-                <li>Préparez vous pour un week-end exceptionnel pour découvrir les dances les claquettes</li>
-                <li>Pour tous, trois variées d'activités artistiques</li>
+            <ul class="hero__list">
+                <li class="hero__list-item">Préparez vous pour un week-end exceptionnel pour découvrir les dances les
+                    claquettes</li>
+                <li class="hero__list-item">Pour tous, trois variées d'activités artistiques</li>
             </ul>
-            <button class="cta-button">Réservez maintenant</button>
+            <a href="contact.html" class="btn">Réservez maintenant</a>
         </div>
     </section>
 
-    <!-- Types d'activités -->
-    <section class="activities-intro">
-        <h2 class="section-title">Les types<br>d'activités</h2>
+    <section class="activities">
+        <h2 class="activities__title">Les types<br>d'activités</h2>
     </section>
 
-    <!-- Spectacles -->
-    <section class="activity-section">
-        <div class="activity-icon">
+    <section class="activity">
+        <div class="activity__icon">
             <img src="assets/icons/logo-danceur.avif" alt="Spectacles">
         </div>
-        <h3 class="activity-title">Spectacles</h3>
-        <p class="activity-description">
+        <h3 class="activity__title">Spectacles</h3>
+        <p class="activity__description">
             Des représentations de claquettes exceptionnelles par des artistes de talents, accompagnées de danses
             variées et de performances uniques.
         </p>
-        <button class="activity-button">Voir le programme</button>
+        <a href="programme.html" class="btn btn--small">Voir le programme</a>
     </section>
 
-    <!-- Ateliers -->
-    <section class="activity-section activity-beige">
-        <div class="activity-icon">
+    <section class="activity activity--beige">
+        <div class="activity__icon">
             <img src="assets/icons/logo-atelier.avif" alt="Ateliers">
         </div>
-        <h3 class="activity-title">Ateliers</h3>
-        <p class="activity-description">
+        <h3 class="activity__title">Ateliers</h3>
+        <p class="activity__description">
             Initiations aux claquettes, ateliers créatifs pour enfants et adultes. Apprenez en dansant. Des ateliers
             pour tous les âges et tous les niveaux.
         </p>
-        <button class="activity-button">En savoir plus</button>
+        <a href="scenes.html" class="btn btn--small">En savoir plus</a>
     </section>
 
-    <!-- Rencontres -->
-    <section class="activity-section">
-        <div class="activity-icon">
+    <section class="activity">
+        <div class="activity__icon">
             <img src="assets/icons/logo-rencontres.avif" alt="Rencontres">
         </div>
-        <h3 class="activity-title">Rencontres</h3>
-        <p class="activity-description">
+        <h3 class="activity__title">Rencontres</h3>
+        <p class="activity__description">
             Échangez avec des artistes lors de rencontres, découvrez les coulisses de spectacles et partagez votre
             passion.
         </p>
-        <button class="activity-button">Plus d'infos</button>
+        <a href="artistes.html" class="btn btn--small">Plus d'infos</a>
     </section>
 
-    <!-- Famille -->
-    <section class="activity-section activity-beige">
-        <div class="activity-icon">
+    <section class="activity activity--beige">
+        <div class="activity__icon">
             <img src="assets/icons/logo-famille.avif" alt="Famille">
         </div>
-        <h3 class="activity-title">Famille</h3>
-        <p class="activity-description">
+        <h3 class="activity__title">Famille</h3>
+        <p class="activity__description">
             Des activités pour toute la famille, espaces dédiés aux familles, animations pour les enfants. Un festival
             pensé pour tous.
         </p>
-        <button class="activity-button">Infos pratiques</button>
+        <a href="infos-pratiques.html" class="btn btn--small">Infos pratiques</a>
     </section>
 
-    <!-- Nos partenaires -->
     <section class="partners">
-        <h2 class="section-title">Nos partenaires</h2>
-        <div class="partners-grid">
-            <div class="partner-logo">
-                <img src="assets/img/logo-HNS.avif" alt="HNS">
+        <h2 class="partners__title">Nos partenaires</h2>
+        <div class="partners__grid">
+            <div class="partners__item">
+                <img src="assets/img/logo-HNS.avif" alt="HNS" class="partners__logo">
             </div>
-            <div class="partner-logo">
-                <img src="assets/img/logo-topachat.avif" alt="TopAchat">
+            <div class="partners__item">
+                <img src="assets/img/logo-topachat.avif" alt="TopAchat" class="partners__logo">
             </div>
-            <div class="partner-logo">
-                <img src="assets/img/logo-CA.avif" alt="Crédit Agricole">
+            <div class="partners__item">
+                <img src="assets/img/logo-CA.avif" alt="Crédit Agricole" class="partners__logo">
             </div>
-            <div class="partner-logo">
-                <img src="assets/img/Logo-PMA.avif" alt="Montbéliard Agglomération">
+            <div class="partners__item">
+                <img src="assets/img/Logo-PMA.avif" alt="Montbéliard Agglomération" class="partners__logo">
             </div>
-            <div class="partner-logo">
-                <img src="assets/img/logo-est-republicain.avif" alt="L'Est Républicain">
+            <div class="partners__item">
+                <img src="assets/img/logo-est-republicain.avif" alt="L'Est Républicain" class="partners__logo">
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
-        <div class="footer-image">
-            <img src="assets/img/footer.avif" alt="Flying Tap Fest">
+        <div class="footer__bg">
+            <img src="assets/img/footer.avif" alt="Flying Tap Fest" class="footer__bg-image">
         </div>
-        <div class="footer-content">
-            <p class="footer-tagline">Un festival entre ciel et terre.</p>
+        <div class="footer__content">
+            <p class="footer__tagline">Un festival entre ciel et terre.</p>
 
-            <nav class="footer-nav">
-                <a href="index.html">Home</a>
-                <a href="apropos.html">À propos</a>
-                <a href="programme.html">Programme</a>
-                <a href="artistes.html">Artistes</a>
-                <a href="scenes.html">Scènes</a>
-                <a href="infos-pratiques.html">Infos pratiques</a>
-                <a href="contact.html">Contact</a>
+            <nav class="footer__nav">
+                <a href="index.html" class="footer__nav-link">Home</a>
+                <a href="apropos.html" class="footer__nav-link">À propos</a>
+                <a href="programme.html" class="footer__nav-link">Programme</a>
+                <a href="artistes.html" class="footer__nav-link">Artistes</a>
+                <a href="scenes.html" class="footer__nav-link">Scènes</a>
+                <a href="infos-pratiques.html" class="footer__nav-link">Infos pratiques</a>
+                <a href="contact.html" class="footer__nav-link">Contact</a>
             </nav>
 
-            <div class="footer-social">
+            <div class="footer__social">
                 <span>Tiktok</span>
                 <span>Instagram</span>
                 <span>Facebook</span>
             </div>
 
-            <div class="footer-contact">
-                <p>03 12 34 56 78</p>
-                <p class="footer-email">Flyingtap@fest.com</p>
-                <address>
+            <div class="footer__contact">
+                <p class="footer__contact-phone">07 12 34 56 78</p>
+                <p class="footer__contact-email">Flyingtap@fest.com</p>
+                <address class="footer__contact-address">
                     France, Montbéliard,<br>
                     Parc Du Près La Rose<br>
                     Chemin de Halage, 25200

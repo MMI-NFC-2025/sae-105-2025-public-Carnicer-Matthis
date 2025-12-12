@@ -5,47 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scène PrinciTap - Flying Tap Fest</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/scene-detail.css">
 </head>
 
 <body>
-    <!-- Header -->
     <header class="header">
-        <div class="header-container">
-            <div class="logo">
-                <span class="logo-text">FLYING TAP FEST</span>
+        <div class="header__container">
+            <div class="header__logo">
+                <span class="header__logo-text">FLYING TAP FEST</span>
             </div>
-            <button class="menu-toggle" aria-label="Menu">
-                <img src="assets/icons/menu.avif" alt="Menu" class="menu-icon">
+            <button class="header__menu-toggle" aria-label="Menu">
+                <img src="assets/icons/menu.avif" alt="Menu" class="header__menu-icon">
             </button>
         </div>
     </header>
 
-    <!-- Menu Mobile -->
-    <nav class="mobile-menu">
-        <div class="mobile-menu-header">
-            <span class="mobile-menu-title">FLYING TAP FEST</span>
-            <button class="menu-close" aria-label="Fermer le menu">
-                <img src="assets/icons/close.avif" alt="Fermer">
+    <nav class="menu">
+        <div class="menu__header">
+            <span class="menu__title">FLYING TAP FEST</span>
+            <button class="menu__close" aria-label="Fermer le menu">
+                <img src="assets/icons/close.avif" alt="Fermer" class="menu__close-icon">
             </button>
         </div>
-        <ul class="mobile-menu-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="apropos.html">À propos</a></li>
-            <li><a href="programme.html">Programme</a></li>
-            <li><a href="artistes.html">Artistes</a></li>
-            <li><a href="scenes.html">Scènes</a></li>
-            <li><a href="infos-pratiques.html">Infos pratiques</a></li>
-            <li><a href="contact.html">Contact</a></li>
+        <ul class="menu__nav">
+            <li class="menu__nav-item"><a href="index.html" class="menu__nav-link">Home</a></li>
+            <li class="menu__nav-item"><a href="apropos.html" class="menu__nav-link">À propos</a></li>
+            <li class="menu__nav-item"><a href="programme.html" class="menu__nav-link">Programme</a></li>
+            <li class="menu__nav-item"><a href="artistes.html" class="menu__nav-link">Artistes</a></li>
+            <li class="menu__nav-item"><a href="scenes.html" class="menu__nav-link">Scènes</a></li>
+            <li class="menu__nav-item"><a href="infos-pratiques.html" class="menu__nav-link">Infos pratiques</a></li>
+            <li class="menu__nav-item"><a href="contact.html" class="menu__nav-link">Contact</a></li>
         </ul>
-        <div class="mobile-menu-social">
-            <a href="#instagram">Instagram</a>
-            <a href="#tiktok">Tiktok</a>
-            <a href="#facebook">Facebook</a>
+        <div class="menu__social">
+            <a href="https://www.instagram.com" class="menu__social-link">Instagram</a>
+            <a href="https://www.tiktok.com" class="menu__social-link">Tiktok</a>
+            <a href="https://www.facebook.com" class="menu__social-link">Facebook</a>
         </div>
     </nav>
 
@@ -54,7 +50,7 @@
         <img src="assets/img/scene-princitap-scene.avif" alt="Scène PrinciTap" class="scene-detail-image">
         <div class="scene-detail-overlay">
             <h1 class="scene-detail-title">Scène PrinciTap</h1>
-            <p class="scene-detail-subtitle">Rythme, Lumière, Fusion.</p>
+            <p class="scene-detail-subtitle">Sons aériens, Rythmes intenses.</p>
         </div>
     </section>
 
@@ -88,34 +84,33 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="footer">
-        <div class="footer-image">
-            <img src="assets/img/footer.avif" alt="Flying Tap Fest">
+        <div class="footer__bg">
+            <img src="assets/img/footer.avif" alt="Flying Tap Fest" class="footer__bg-image">
         </div>
-        <div class="footer-content">
-            <p class="footer-tagline">Un festival entre ciel et terre.</p>
+        <div class="footer__content">
+            <p class="footer__tagline">Un festival entre ciel et terre.</p>
 
-            <nav class="footer-nav">
-                <a href="index.html">Home</a>
-                <a href="apropos.html">À propos</a>
-                <a href="programme.html">Programme</a>
-                <a href="artistes.html">Artistes</a>
-                <a href="scenes.html">Scènes</a>
-                <a href="infos-pratiques.html">Infos pratiques</a>
-                <a href="contact.html">Contact</a>
+            <nav class="footer__nav">
+                <a href="index.html" class="footer__nav-link">Home</a>
+                <a href="apropos.html" class="footer__nav-link">À propos</a>
+                <a href="programme.html" class="footer__nav-link">Programme</a>
+                <a href="artistes.html" class="footer__nav-link">Artistes</a>
+                <a href="scenes.html" class="footer__nav-link">Scènes</a>
+                <a href="infos-pratiques.html" class="footer__nav-link">Infos pratiques</a>
+                <a href="contact.html" class="footer__nav-link">Contact</a>
             </nav>
 
-            <div class="footer-social">
+            <div class="footer__social">
                 <span>Instagram</span>
                 <span>Tiktok</span>
                 <span>Facebook</span>
             </div>
 
-            <div class="footer-contact">
-                <p>03 12 34 56 78</p>
-                <p class="footer-email">Flyingtap@fest.com</p>
-                <address>
+            <div class="footer__contact">
+                <p class="footer__contact-phone">03 12 34 56 78</p>
+                <p class="footer__contact-email">Flyingtap@fest.com</p>
+                <address class="footer__contact-address">
                     France, Montbéliard,<br>
                     Parc Du Prés La Rose<br>
                     Chemin de Halage, 25200
