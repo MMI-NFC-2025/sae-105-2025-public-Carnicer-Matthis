@@ -6,9 +6,12 @@
 - NOM : CARNICER
 - PRÉNOM : MATTHIS
 - GROUPE : C1
-- URL du site :
-- URL FIGMA :
+- URL du site : https://flyingtapfest.carnicer.fr/
+- URL FIGMA : https://www.figma.com/design/G6CsGNMWs6WjwfjKmqqmdZ/Flying-Tap-Fest?node-id=0-1&t=RpGD3KnVKZjEIsOL-1
 
 ## Sujet
 
 [https://moodle.univ-fcomte.fr/mod/page/view.php?id=882862](https://moodle.univ-fcomte.fr/mod/page/view.php?id=882862)
+
+Caroussel : https://flyingtapfest.carnicer.fr/artiste-detail
+Croix rotation : https://flyingtapfest.carnicer.fr/infos-pratiques

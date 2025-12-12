@@ -39,8 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         });
     });
-
-    // Gestion du carrousel
+    // Caroussel: https://flyingtapfest.carnicer.fr/artiste-detail
     const prevButton = document.querySelector('.prev-carousel');
     const nextButton = document.querySelector('.next-carousel');
     const carouselTrack = document.querySelector('.carousel-track');

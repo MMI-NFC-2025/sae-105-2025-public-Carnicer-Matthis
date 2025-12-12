@@ -78,7 +78,7 @@
 .question-summary::-webkit-details-marker {
     display: none;
 }
-
+ /* Croix rotation : https://flyingtapfest.carnicer.fr/infos-pratiques */
 .question-icon {
     flex-shrink: 0;
     width: 24px;
